@@ -81,7 +81,7 @@ export default new Vuex.Store({
         //把路由添加到路由器中
         router.addRoute(item)
 
-        //格式化菜单，把path和meta拿出来 woshinima
+        //格式化菜单，把path和meta拿出来  woshimaster
         let { path, meta } = item
         if (item.children) {
           //如果有children把他也格式化
